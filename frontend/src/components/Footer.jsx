@@ -4,7 +4,7 @@ function Footer() {
       <div className="flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="font-display text-text-primary font-semibold">
           <span className="text-teal font-mono">{'<'}</span>
-          Electronix-chetan
+          Electronix-chetan-esrytyhjk
           <span className="text-teal font-mono">{'/>'}</span>
         </p>
         <p className="font-mono text-xs text-text-muted">
