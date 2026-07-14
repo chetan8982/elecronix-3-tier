@@ -55,7 +55,7 @@ pipeline {
                 stage('Invalidation Cloudfront Cache'){
                     steps{
                         sh ''' 
-                        aws cloudfront create-invalidation --distribution-id $(CLOUDFRONT_ID) --paths '*/'
+                        aws cloudfront create-invalidation --distribution-id $(CLOUDFRONT_ID) --paths '/*'
                         '''
                     }
                 }
